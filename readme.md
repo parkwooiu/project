@@ -1,11 +1,12 @@
 사용 기술 스택
- Java 11
- Spring boot 5.2.7.RELEASE
- Spring security 5.5.0
- Spring Framework
- MySQL 8.0
- Tomcat 9.0
- Sts 3.9.18
+
+- Java 11
+- Spring boot 5.2.7.RELEASE
+- Spring security 5.5.0
+- Spring Framework
+- MySQL 8.0
+- Tomcat 9.0
+- Sts 3.9.18
  
 
 
