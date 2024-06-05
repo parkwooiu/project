@@ -1,4 +1,4 @@
-![image](https://github.com/parkwooiu/project/assets/157097383/c8d49440-7205-458f-8b14-8717ffe6e0e4)Mysql을 사용하여 DB설계
+Mysql을 사용하여 DB설계
 
 -- 사용자 정보 테이블
 CREATE TABLE Users (
