@@ -1,206 +1,110 @@
-사용 기술 스택
+<h1 align='center'> <img src='https://cdn-icons-png.flaticon.com/512/5208/5208370.png' style='width: 300px; height: 200px;'>&nbsp;</h1>
+<h1  align='center'>👕라이브 커머스 프로젝트</h1>
 
-- Java 11
-- Spring boot 5.2.7.RELEASE
-- Spring security 5.5.0
-- Spring Framework
-- MySQL 8.0
-- Tomcat 9.0
-- Sts 3.9.18
+
+
+## 목차
+- [개요](https://github.com/YoungQWER/LiveCommerce#-개요)
+- [기술 스택](https://github.com/YoungQWER/LiveCommerce#-기술-스택)
+- [프로젝트 설계](https://github.com/YoungQWER/LiveCommerce#-프로젝트-설계)
+- [핵심 기능](https://github.com/YoungQWER/LiveCommerce#-핵심-기능)
+- [주요기능 실행화면](https://github.com/YoungQWER/LiveCommerce#-주요기능-실행화면)
+- [개선사항](https://github.com/YoungQWER/LiveCommerce#--개선사항)
+  
+
+
+## 🚩 개요
+- 프로젝트 목표 : 다양한 `API`를 활용한 `스프링` , `마이바티스` 라이브 커머스 프로젝트
+- 개발기간 : 24/05/02 ~ 24/05/24
+
+
+
+## 🔧 기술 스택
+- API : `카카오페이 API`
+- Language : `Java(11)` `JavaScript(3.22)`
+- Library & Framework : `Spring(5.3.23)` `Junit(4.12)` `Servlet(4.0.1)` `Spring Security` `websocket(5.2.7)` `JSP(2.5)`
+- Database : `MySQL(8.0.35)`
+- Target : `Web Browser`
+- Tool : `SpringSource Tool Suite (STS) 3.9.18.RELEASE`
+- Infra : `Linux(Ubuntu)` `EC2`
+- Etc : `Git`
+
+## 👾 프로젝트 설계, 구현 📂 PPT 📂 (ERD, USECASE)
+
+<details><summary>프로젝트 설계, 구현, PPT 눌러서 확인</summary>   
+<div align="center">   
+
+| **![1](https://github.com/YoungQWER/LiveCommerce/assets/157094828/9f6401a4-513b-4c22-911a-3a8d28542624)** |
+| **![2](https://github.com/YoungQWER/LiveCommerce/assets/157094828/8ff0b5bc-dc4b-4864-b073-b05e3e001317)** |
+| :------: |  :------: |
+| **![3](https://github.com/YoungQWER/LiveCommerce/assets/157094828/00e75f3e-1a45-4881-9af3-d761346175c1)** |
+| **![4](https://github.com/YoungQWER/LiveCommerce/assets/157094828/a4ac30d7-8a50-4f57-b7e9-4f8de0babc28)** |
+| **![5](https://github.com/YoungQWER/LiveCommerce/assets/157094828/98d67baf-a9dc-4572-9225-5a0df5f86895)** |
+| **![6](https://github.com/YoungQWER/LiveCommerce/assets/157094828/066c8938-1873-4493-a97e-9fe546174ff9)** |
+| **![7](https://github.com/YoungQWER/LiveCommerce/assets/157094828/59141d23-f40b-4f3e-b49e-6709673de680)** |
+| **![8](https://github.com/YoungQWER/LiveCommerce/assets/157094828/80f5da1c-d693-4da6-883c-f3a0cec5afbd)** |
+| **![9](https://github.com/YoungQWER/LiveCommerce/assets/157094828/5ce640bf-24ec-4956-8602-18ce98e36506)** |
+| **![10](https://github.com/YoungQWER/LiveCommerce/assets/157094828/5325ca18-0479-4100-9314-e540b9659641)** |
+| **![11](https://github.com/YoungQWER/LiveCommerce/assets/157094828/367d32a0-ce89-4992-ab42-e8fd1e204492)** |
+| **![12](https://github.com/YoungQWER/LiveCommerce/assets/157094828/3838dc5b-f5a7-45e0-a6c6-638153a973ee)** |
+| **![13](https://github.com/YoungQWER/LiveCommerce/assets/157094828/efcacf9c-024a-4b3f-b90a-f5e67546e098)** |
+| **![14](https://github.com/YoungQWER/LiveCommerce/assets/157094828/38978333-1afa-4b3b-ae77-c983f0dbae2a)** |
+| **![15](https://github.com/YoungQWER/LiveCommerce/assets/157094828/bdaf929a-4838-495d-bfcf-2e68cec9306c)** |
+| **![16](https://github.com/YoungQWER/LiveCommerce/assets/157094828/fe3574c9-0b8a-4d86-8fe5-99ae093a77fc)** |
+| **![17](https://github.com/YoungQWER/LiveCommerce/assets/157094828/d78b24c2-a9a2-41cd-9a9b-17c9efbe5560)** | 
+| **![18](https://github.com/YoungQWER/LiveCommerce/assets/157094828/1b6d772c-3678-4f64-8594-cbe55db9d04a)** |
+| **![19](https://github.com/YoungQWER/LiveCommerce/assets/157094828/1daca093-b435-48f5-8066-e85409a77902)** |
+| **![20](https://github.com/YoungQWER/LiveCommerce/assets/157094828/e77f9e03-9d13-4371-ab35-c17c5b821a65)** |
+| **![21](https://github.com/YoungQWER/LiveCommerce/assets/157094828/de07feb9-0f61-4325-b484-0d9ce5115dc2)** |
+| **![22](https://github.com/YoungQWER/LiveCommerce/assets/157094828/43444f54-07f6-4b9b-95fe-9930e264c66c)** |
+| **![23](https://github.com/YoungQWER/LiveCommerce/assets/157094828/96b28b8b-7cb6-4a4e-9690-2eb517d8d676)** |
+
+</div>            
+</details>
+
+## 💻 핵심 기능
+
+
+
+#### 상품
+- 상품 정보 DB 저장
+- 상품 검색
+- 카테고리 기능
+- 관련 상품 추천
+
+#### 유저
+- 로그인 및 회원가입
+- 비밀번호 암호화 처리
+- 마이 페이지
+- 개인 정보 수정
+- 라이브 채팅
+
+#### 장바구니
+- 상품 장바구니에 담기 및 제거
+- 실시간 수량 수정 후 결제
+- 같은 상품, 같은 사이즈 장바구니 담을 시 수량 증가
+
+#### 주문
+- 장바구니 상품 주문
+- KakaoPayAPI 이용한 결제
+- 유저만 구매가능
+
+## 🎇 주요기능 실행화면
+
+<details>
+<summary>주요기능 실행화면 눌러서 확인</summary>
+
+![라이브커머스_이진영_박우주](https://github.com/YoungQWER/LiveCommerce/assets/157094828/6f3e2bc6-4c5d-40e2-82be-992a6ac8e18b)
+
+</details>
+
+## 🚩 문제점
+- 테스트때 NULL값이 넘어가서 오류가 뜰때
+- 생각지도 못한 DB join으로 다시 설정해야될때
+- 시큐리티 토큰
+
+
+## 🌄 개선사항
+- 관리자 CRUD 추가
+- 장바구니 구매 후 자동삭제
  
-
-
-
-
-----------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-Mysql을 사용하여 DB설계
-
--- 사용자 정보 테이블
-CREATE TABLE Users (
-    UserID INT PRIMARY KEY AUTO_INCREMENT, -- 사용자 ID
-    Username VARCHAR(20) NOT NULL, -- 사용자 이름
-    Email VARCHAR(50) NOT NULL, -- 사용자 이메일
-    Password VARCHAR(100) NOT NULL, -- 사용자 비밀번호
-    ShippingAddress VARCHAR(1000) NOT NULL, -- 배송 주소
-    ShippingPostalCode VARCHAR(20) NOT NULL, -- 배송 우편번호
-    enabled char(1) default '0'
-);
-
--- 카테고리 정보 테이블
-CREATE TABLE Categories (
-    CategoryID INT PRIMARY KEY AUTO_INCREMENT, -- 카테고리 ID
-    CategoryName VARCHAR(50) NOT NULL -- 카테고리명
-);
-
--- 제품 정보 테이블
-CREATE TABLE Products (
-    ProductID INT PRIMARY KEY AUTO_INCREMENT, -- 제품 ID
-    ProductName VARCHAR(50) NOT NULL, -- 제품명
-    Description TEXT, -- 제품 설명
-    Price INT NOT NULL, -- 제품 가격
-    Photo VARCHAR(255), -- 제품 사진 경로
-    CategoryID INT, -- 외래 키: 카테고리 ID
-    FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
-);
-
--- 주문 정보 테이블
-CREATE TABLE Orders (
-    OrderID INT PRIMARY KEY AUTO_INCREMENT, -- 주문 ID
-    UserID INT, -- 주문한 사용자의 ID (외래키)
-    ProductID INT, -- 주문한 제품의 ID (외래키)
-    Quantity INT, -- 주문 수량
-    ShippingAddress VARCHAR(1000) NOT NULL, -- 배송 주소
-    ShippingPostalCode VARCHAR(20) NOT NULL, -- 배송 우편번호
-    OrderDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- 주문 일자
-    FOREIGN KEY (UserID) REFERENCES Users(UserID), -- 사용자 테이블과의 외래키 관계
-    FOREIGN KEY (ProductID) REFERENCES Products(ProductID) -- 제품 테이블과의 외래키 관계
-);
-
--- 결제 정보 테이블
-CREATE TABLE Payments (
-    PaymentID INT PRIMARY KEY AUTO_INCREMENT, -- 결제 ID
-    OrderID INT, -- 주문 ID (외래키)
-    PaymentMethod VARCHAR(50) NOT NULL, -- 결제 수단
-    Amount INT NOT NULL, -- 결제 금액
-    PaymentDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- 결제 일자
-    Status VARCHAR(50), -- 결제 상태
-    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID) -- 주문 테이블과의 외래키 관계
-);
-
-CREATE TABLE LiveChat (
-    ChatID INT PRIMARY KEY AUTO_INCREMENT, -- 채팅 ID
-    UserID INT, -- 사용자 ID (외래키)
-    Message TEXT, -- 채팅 메시지
-    ChatTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- 채팅 시간
-    ProductID INT, -- 제품 ID (외래키)
-    FOREIGN KEY (UserID) REFERENCES Users(UserID), -- 사용자 테이블과의 외래키 관계
-    FOREIGN KEY (ProductID) REFERENCES Products(ProductID) -- 제품 테이블과의 외래키 관계
-);
-
--- 장바구니 테이블
-CREATE TABLE Cart (
-    CartID INT PRIMARY KEY AUTO_INCREMENT, -- 장바구니 ID
-    UserID INT, -- 사용자 ID (외래키)
-    ProductID INT, -- 제품 ID (외래키)
-    Quantity INT, -- 제품 수량
-    FOREIGN KEY (UserID) REFERENCES Users(UserID), -- 사용자 테이블과의 외래키 관계
-    FOREIGN KEY (ProductID) REFERENCES Products(ProductID) -- 제품 테이블과의 외래키 관계
-);
-
--- 카카오톡 결제 정보 테이블
-CREATE TABLE KakaoPayments (
-    PaymentID INT PRIMARY KEY AUTO_INCREMENT, -- 결제 ID
-    OrderID INT, -- 주문 ID (외래키)
-    PaymentMethod VARCHAR(50) NOT NULL, -- 결제 수단
-    Amount INT NOT NULL, -- 결제 금액
-    PaymentDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- 결제 일자
-    KakaoTransactionID VARCHAR(100) NOT NULL, -- 카카오 거래 ID
-    Status VARCHAR(50), -- 결제 상태
-    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID) -- 주문 테이블과의 외래키 관계
-);
-
--- 이벤트 정보 테이블
-CREATE TABLE Events (
-    EventID INT PRIMARY KEY AUTO_INCREMENT, -- 이벤트 ID
-    EventName VARCHAR(100) NOT NULL, -- 이벤트명
-    Description TEXT, -- 이벤트 설명
-    EventDate TIMESTAMP NOT NULL, -- 이벤트 일자
-    Location VARCHAR(200) NOT NULL, -- 이벤트 장소
-    Photo VARCHAR(255), -- 이벤트 사진 경로
-    ProductID INT, -- 상품 ID (외래키)
-    FOREIGN KEY (ProductID) REFERENCES Products(ProductID) -- 제품 테이블과의 외래키 관계
-);
-
--- 후기 정보 테이블
-CREATE TABLE Reviews (
-    ReviewID INT PRIMARY KEY AUTO_INCREMENT, -- 후기 ID
-    UserID INT, -- 사용자 ID (외래키)
-    ProductID INT, -- 제품 ID (외래키)
-    Rating INT NOT NULL, -- 평점
-    Comment TEXT, -- 후기 내용
-    ReviewDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- 후기 작성 일자
-    FOREIGN KEY (UserID) REFERENCES Users(UserID), -- 사용자 테이블과의 외래키 관계
-    FOREIGN KEY (ProductID) REFERENCES Products(ProductID) -- 제품 테이블과의 외래키 관계
-);
-
-CREATE TABLE tbl_users_auth (
-    userid INT NOT NULL,
-    auth VARCHAR(100) NOT NULL,
-    CONSTRAINT fk_users_auth FOREIGN KEY (userid) REFERENCES Users(UserID)
-);
-CREATE TABLE LiveStreams (
-    StreamID INT PRIMARY KEY AUTO_INCREMENT, -- 스트리밍 ID
-    Title VARCHAR(100) NOT NULL, -- 제목
-    VideoID VARCHAR(50) NOT NULL, -- 비디오 ID
-    Description TEXT, -- 설명
-    StartTime TIMESTAMP NOT NULL, -- 시작 시간
-    EndTime TIMESTAMP, -- 종료 시간
-    Photo VARCHAR(255), -- 사진의 경로를 저장할 열
-    ProductID INT, -- 외래 키: 상품 ID
-    ChatID INT, -- 외래 키: 채팅 ID
-    FOREIGN KEY (ProductID) REFERENCES products(ProductID),
-    FOREIGN KEY (ChatID) REFERENCES livechat(ChatID)
-);
-
-INSERT INTO Categories (CategoryName)
-VALUES ('상의'),
-       ('하의'),
-       ('신발'),
-       ('액세서리'),
-       ('가방'),
-       ('아우터'),
-       ('전자기기'),
-       ('가전제품'),
-       ('서적'),
-       ('가구');
-
- ![image](https://github.com/parkwooiu/project/assets/157097383/d40def1d-5ba7-4147-bba1-7bcb6778d387)
-
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-주요 키워드
--시큐리티
--결제(카카오페이 API)
--HTTP 통신
--웹소켓
--외래키
--예외처리
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-백엔드
-Spring legacy
-- Java 11
-- Spring MVC
-- Spring Security
-- Spring websocat
-- Port One
-
-
-  database
-  - Mysql
- 
-  프론트엔트
-- Javascript
-- jQuery
-
-
-
-
-
-
-
-
-
-
- 
-
