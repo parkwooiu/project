@@ -4,7 +4,7 @@
 
 
 ## 목차
-- [개요][(https://github.com/parkwooju/project#-개요)]
+- [개요](https://github.com/parkwooju/project#-개요)
 - [기술 스택](https://github.com/parkwooju/project#-기술-스택)
 - [프로젝트 설계](https://github.com/parkwooju/project#-프로젝트-설계)
 - [핵심 기능](https://github.com/parkwooju/project#-핵심-기능)
